@@ -1,0 +1,351 @@
+﻿<UserControl x:Class="PI.UserControlAddRecipients"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PI"
+             mc:Ignorable="d" 
+              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+         TextElement.FontWeight="Regular"
+         TextElement.FontSize="13"
+         TextOptions.TextFormattingMode="Ideal"
+         TextOptions.TextRenderingMode="Auto"
+         FontFamily="{DynamicResource MaterialDesignFont}"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <local:convertRecipientFromView x:Key="convertRecipientFromView"/>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal" FlowDirection="RightToLeft">
+            <Expander x:Name="personalData" Expanded="personalData_Expanded"  ExpandDirection="Right" FlowDirection="RightToLeft" Background="White" >
+                <Expander.Header>
+                    <TextBlock Text="פרטים אישיים" RenderTransformOrigin=".5,.5" HorizontalAlignment="Right">
+                        <TextBlock.LayoutTransform>
+                            <RotateTransform Angle="270" />
+                        </TextBlock.LayoutTransform>
+                    </TextBlock>
+                </Expander.Header>
+                <StackPanel  
+      Orientation="Vertical"
+      TextBlock.Foreground="{DynamicResource MaterialDesignBody}">
+
+                    <Grid ShowGridLines="False" Width="590"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="70"/>
+                            <RowDefinition Height="10"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="100"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="80"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" FlowDirection="RightToLeft"  VerticalAlignment="Center" 
+        Text="אנא הכנס פרטים מזהים" FontStyle="Italic" Foreground="DarkBlue" FontSize="20" FontWeight="Bold"  />
+                        <TextBox x:Name="idTextBox"  Grid.Row="2" Grid.Column="0" FlowDirection="RightToLeft" materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}"  materialDesign:HintAssist.Hint="תעודת זהות" PreviewTextInput="TextBox_PreviewTextInput"
+  VerticalAlignment="Center" Width="200"/>
+
+                        <TextBox x:Name="nameTextBox" Grid.Row="3" Grid.Column="0" FlowDirection="RightToLeft"  materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}"  materialDesign:HintAssist.Hint="שם פרטי"
+  VerticalAlignment="Center" Width="200"/>
+                        <TextBox x:Name="lastnameTextBox"  Grid.Row="4" Grid.Column="0" FlowDirection="RightToLeft"  materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}"  materialDesign:HintAssist.Hint="שם משפחה"
+  VerticalAlignment="Center" Width="200"/>
+
+                        <DatePicker x:Name="dateOfBirth" Grid.Row="2" Grid.Column="1" Width="200"
+  materialDesign:HintAssist.Hint="תאריך  לידה" FlowDirection="RightToLeft"  materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange" 
+  Style="{StaticResource MaterialDesignFloatingHintDatePicker}"/>
+                        <TextBox x:Name="phoneTextBox" Grid.Row="3"  Grid.Column="1" FlowDirection="RightToLeft"  materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}"  materialDesign:HintAssist.Hint="טלפון" PreviewTextInput="TextBox_PreviewTextInput"
+  VerticalAlignment="Center" Width="200"/>
+                        <TextBox x:Name="emailTextBox"  Grid.Row="4" Grid.Column="1" FlowDirection="RightToLeft"  materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}"  materialDesign:HintAssist.Hint="מייל"
+  VerticalAlignment="Center" Width="200"/>
+                        <ComboBox Name="genderComboBox" Grid.Row="5" Grid.Column="0" Width="200" FlowDirection="RightToLeft"  materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+  materialDesign:HintAssist.Hint="מגדר">
+                        </ComboBox>
+                        <ComboBox Name="statusComboBox"  Grid.Row="6" Grid.Column="0" Width="200" FlowDirection="RightToLeft"  materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+  materialDesign:HintAssist.Hint="סטטוס">
+                        </ComboBox>
+                        <!--<local:UserControlAddress Grid.Row="5" Background="White"  Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/> -->
+                        <Grid Grid.Row="5" Background="White" Grid.Column="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Label Grid.Row="0" Content="כתובת" HorizontalAlignment="Left" FontWeight="Bold" VerticalAlignment="Bottom" Foreground="DarkBlue"/>
+
+                            <Grid Grid.Row="1">
+                                <Grid.ColumnDefinitions >
+                                    <ColumnDefinition Width="20*"/>
+                                    <ColumnDefinition Width="100*"/>
+                                    <ColumnDefinition Width="100*"/>
+                                    <ColumnDefinition Width="100*"/>
+                                    <ColumnDefinition Width="20*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBox x:Name="cityTextBox" Height="50" FlowDirection="RightToLeft" Grid.Column="1"
+      materialDesign:HintAssist.Hint="עיר"  Width="80" VerticalAlignment="Center" HorizontalAlignment="Center"
+                     materialDesign:HintAssist.Foreground="Orange"
+      materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+      Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                                <TextBox x:Name="streetTextBox" FlowDirection="RightToLeft" Grid.Column="2"
+      materialDesign:HintAssist.Hint="רחוב" Width="80" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center"
+                     materialDesign:HintAssist.Foreground="Orange"
+      materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+      Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                                <TextBox x:Name="numTextBox"  FlowDirection="RightToLeft" Grid.Column="3"
+      materialDesign:HintAssist.Hint="מספר בית"  Width="80" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center"
+                     materialDesign:HintAssist.Foreground="Orange"
+      materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+      Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+
+                            </Grid>
+                        </Grid>
+                    </Grid>
+
+                </StackPanel>
+            </Expander>
+            <Border HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+    Background="{DynamicResource MaterialDesignDivider}"
+    Width="1"
+    SnapsToDevicePixels="True" />
+
+            <Expander x:Name="package" Expanded="package_Expanded"  ExpandDirection="Right" FlowDirection="RightToLeft" Background="White" >
+                <Expander.Header>
+                    <TextBlock
+        Text="יצירת חבילה"
+        RenderTransformOrigin=".5,.5">
+                        <TextBlock.LayoutTransform>
+                            <RotateTransform
+            Angle="270" />
+                        </TextBlock.LayoutTransform>
+                    </TextBlock>
+                </Expander.Header>
+                <StackPanel
+      Orientation="Vertical"
+      TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+      Margin="8,24,16,24">
+                    <Grid Width="550" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="20"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" HorizontalAlignment="Left" FlowDirection="RightToLeft"  VerticalAlignment="Center" 
+        Text="אנא בחר תוכן חבילה - יש לבחור לפחות 5 פריטים" FontStyle="Italic" Foreground="DarkBlue" FontSize="20" FontWeight="Bold" Margin="10,0,0,0"  />
+                        <!--<local:UserControlPackage Grid.Row="2" Background="White" HorizontalAlignment="Center"  VerticalAlignment="Center" /> -->
+                        <Grid Grid.Row="2"  ShowGridLines="False">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="5*"/>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="5*"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+
+                                <RowDefinition Height="0.5*"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock FlowDirection="RightToLeft" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Left" Height="30"  TextWrapping="Wrap" Text="אוכל:" VerticalAlignment="Center" Foreground="DarkBlue" />
+                            <TextBlock FlowDirection="RightToLeft" Grid.Column="3" Grid.Row="0" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" Text="תרופות:" VerticalAlignment="Center" Foreground="DarkBlue" />
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="1" Grid.Row="1" Height="20" x:Name="CheckBoxFoddegg" IsThreeState="False" IsChecked="False"  Background="DarkBlue">ביצים</CheckBox>
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="1" Grid.Row="2" Height="20" x:Name="CheckBoxFoodbread" IsThreeState="False" IsChecked="False" Background="DarkBlue">לחם</CheckBox>
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="1" Grid.Row="3" Height="20" x:Name="CheckBoxFoodoil" IsThreeState="False" IsChecked="False" Background="DarkBlue">שמן</CheckBox>
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="1" Grid.Row="4" Height="20" x:Name="CheckBoxFoodmilk" IsThreeState="False" IsChecked="False" Background="DarkBlue">חלב</CheckBox>
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="1" Grid.Row="5" Height="20" x:Name="CheckBoxFoodsugar" IsThreeState="False" IsChecked="False" Background="DarkBlue">סוכר</CheckBox>
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="1" Grid.Row="6" Height="20" x:Name="CheckBoxFoodsalt" IsThreeState="False" IsChecked="False" Background="DarkBlue">מלח</CheckBox>
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="1" Grid.Row="7" Height="20" x:Name="CheckBoxFoodbutter" IsThreeState="False" IsChecked="False" Background="DarkBlue">חמאה</CheckBox>
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="1" Grid.Row="8" Height="20" x:Name="CheckBoxFoodcream_cheese" IsThreeState="False" IsChecked="False" Background="DarkBlue">גבינה לבנה</CheckBox>
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="1" Grid.Row="9" Height="20" x:Name="CheckBoxFoodwater" IsThreeState="False" IsChecked="False" Background="DarkBlue">מים</CheckBox>
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="1" Grid.Row="10" Height="20" x:Name="CheckBoxFoodice_cream" IsThreeState="False" IsChecked="False" Background="DarkBlue">גלידה</CheckBox>
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="1" Grid.Row="11" Height="20" x:Name="CheckBoxFoodchocolate" IsThreeState="False" IsChecked="False" Background="DarkBlue">שוקולד</CheckBox>
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="1" Grid.Row="12" Height="20" x:Name="CheckBoxFoodvegetables" IsThreeState="False" IsChecked="False" Background="DarkBlue">ירקות</CheckBox>
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="1" Grid.Row="13" Height="20" x:Name="CheckBoxFoodfruit" IsThreeState="False" IsChecked="False" Background="DarkBlue">פירות</CheckBox>
+
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="3" Grid.Row="1" Height="20" x:Name="CheckBoxMedicineacamol" IsThreeState="False" IsChecked="False" Background="DarkBlue">אקמול</CheckBox>
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="3" Grid.Row="2" Height="20" x:Name="CheckBoxMedicineoptalgin" IsThreeState="False" IsChecked="False" Background="DarkBlue">אופטלגין</CheckBox>
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="3" Grid.Row="3" Height="20" x:Name="CheckBoxMedicineadex" IsThreeState="False" IsChecked="False" Background="DarkBlue">אדקס</CheckBox>
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="3" Grid.Row="4" Height="20" x:Name="CheckBoxMedicinenurofen" IsThreeState="False" IsChecked="False" Background="DarkBlue">נורופן</CheckBox>
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="3" Grid.Row="5" Height="20" x:Name="CheckBoxMedicineadvil" IsThreeState="False" IsChecked="False" Background="DarkBlue">אדוויל</CheckBox>
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="3" Grid.Row="6" Height="20" x:Name="CheckBoxMedicineibuprofen" IsThreeState="False" IsChecked="False" Background="DarkBlue">אייבופרופין</CheckBox>
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="3" Grid.Row="7" Height="20" x:Name="CheckBoxMedicinevitamin_C" IsThreeState="False" IsChecked="False" Background="DarkBlue">C ויטמין</CheckBox>
+                            <CheckBox FlowDirection="RightToLeft" Grid.Column="3" Grid.Row="8" Height="20" x:Name="CheckBoxMedicinevitamin_D" IsThreeState="False" IsChecked="False" Background="DarkBlue">D ויטמין</CheckBox>
+
+
+
+                        </Grid>
+
+                    </Grid>
+                </StackPanel>
+            </Expander>
+            <Border
+    Background="{DynamicResource MaterialDesignDivider}"
+    Width="1"
+    VerticalAlignment="Stretch"
+    SnapsToDevicePixels="True" />
+            <Expander x:Name="dataPackage" Expanded="dataPackage_Expanded"  ExpandDirection="Right" FlowDirection="RightToLeft" Background="White" >
+                <Expander.Header>
+                    <TextBlock
+        Text="הגדרות חבילה"
+        RenderTransformOrigin=".5,.5">
+                        <TextBlock.LayoutTransform>
+                            <RotateTransform
+            Angle="270" />
+                        </TextBlock.LayoutTransform>
+                    </TextBlock>
+                </Expander.Header>
+                <StackPanel
+      Orientation="Vertical"
+      TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+      Margin="8,24,16,24">
+                    <Grid Width="550" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" HorizontalAlignment="Left" FlowDirection="RightToLeft"  VerticalAlignment="Center" 
+        Text="אנא מלא הגדרות חבילה" FontStyle="Italic" Foreground="DarkBlue" FontSize="20" FontWeight="Bold" Margin="10,0,0,0"  />
+                        <DatePicker Name="startDate" Grid.Row="1"  Width="200"
+  materialDesign:HintAssist.Hint="תאריך התחלת מנוי לחבילות"   FlowDirection="RightToLeft"  materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange" 
+  Style="{StaticResource MaterialDesignFloatingHintDatePicker}"/>
+                        <DatePicker Name="finishDate" Grid.Row="2"  Width="200" 
+  materialDesign:HintAssist.Hint="תאריך סיום מנוי לחבילות" FlowDirection="RightToLeft"  materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange" 
+  Style="{StaticResource MaterialDesignFloatingHintDatePicker}"/>
+                        <ComboBox Name="frequencyComboBox"  Grid.Row="3"  Width="200" FlowDirection="RightToLeft"  materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+  materialDesign:HintAssist.Hint="תדירות שליחת חבילה"/>
+                    </Grid>
+                </StackPanel>
+            </Expander>
+            <Border
+    Background="{DynamicResource MaterialDesignDivider}"
+    Width="1"
+    VerticalAlignment="Stretch"
+    SnapsToDevicePixels="True" />
+            <Expander x:Name="save" Expanded="save_Expanded"  ExpandDirection="Right" FlowDirection="RightToLeft" Background="White" >
+                <Expander.Header>
+                    <TextBlock
+        Text="שמירת נתונים"
+        RenderTransformOrigin=".5,.5">
+                        <TextBlock.LayoutTransform>
+                            <RotateTransform
+            Angle="270" />
+                        </TextBlock.LayoutTransform>
+                    </TextBlock>
+                </Expander.Header>
+                <StackPanel
+      Orientation="Vertical"
+      TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+      Margin="8,24,16,24">
+                    <Grid Width="550">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="100"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" FlowDirection="RightToLeft"  VerticalAlignment="Center" 
+        Text="שמירת נתונים" FontStyle="Italic" Foreground="DarkBlue" FontSize="20" FontWeight="Bold"  />
+                        <TextBlock Grid.Row="2" Text="משתמש יקר! &#xD;&#xA;יש לוודא כי כל הנתונים הוזנו טרם ביצוע שמירה" FontSize="12" FontWeight="Black" />
+                        <Grid Grid.Row="3" Width="124">
+                            <Button  Background="DarkBlue" Command="{Binding AddCommend}" Style="{StaticResource MaterialDesignRaisedButton}" materialDesign:ButtonProgressAssist.Value="-1" materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+                              materialDesign:ButtonProgressAssist.IsIndeterminate="True" Content="שמירה" >
+                                <Button.CommandParameter>
+                                    <MultiBinding Converter="{StaticResource convertRecipientFromView}">
+                                        <Binding Path="Text" ElementName="idTextBox" />
+                                        <Binding Path="Text" ElementName="nameTextBox" />
+                                        <Binding Path="Text" ElementName="lastnameTextBox" />
+                                        <Binding Path="Text" ElementName="dateOfBirth" />
+                                        <Binding Path="Text" ElementName="phoneTextBox" />
+                                        <Binding Path="Text" ElementName="emailTextBox" />
+                                        <Binding Path="Text" ElementName="genderComboBox" />
+                                        <Binding Path="Text" ElementName="statusComboBox" />
+                                        <Binding Path="Text" ElementName="cityTextBox" />
+                                        <Binding Path="Text" ElementName="streetTextBox" />
+                                        <Binding Path="Text" ElementName="numTextBox" />
+
+                                        <Binding Path="IsChecked" ElementName="CheckBoxFoddegg" />
+                                        <Binding Path="IsChecked" ElementName="CheckBoxFoodbread" />
+                                        <Binding Path="IsChecked" ElementName="CheckBoxFoodoil" />
+                                        <Binding Path="IsChecked" ElementName="CheckBoxFoodmilk" />
+                                        <Binding Path="IsChecked" ElementName="CheckBoxFoodsugar" />
+                                        <Binding Path="IsChecked" ElementName="CheckBoxFoodsalt" />
+                                        <Binding Path="IsChecked" ElementName="CheckBoxFoodbutter" />
+                                        <Binding Path="IsChecked" ElementName="CheckBoxFoodcream_cheese" />
+                                        <Binding Path="IsChecked" ElementName="CheckBoxFoodwater" />
+                                        <Binding Path="IsChecked" ElementName="CheckBoxFoodice_cream" />
+                                        <Binding Path="IsChecked" ElementName="CheckBoxFoodchocolate" />
+                                        <Binding Path="IsChecked" ElementName="CheckBoxFoodvegetables" />
+                                        <Binding Path="IsChecked" ElementName="CheckBoxFoodfruit" />
+
+                                        <Binding Path="IsChecked" ElementName="CheckBoxMedicineacamol" />
+                                        <Binding Path="IsChecked" ElementName="CheckBoxMedicineoptalgin" />
+                                        <Binding Path="IsChecked" ElementName="CheckBoxMedicineadex" />
+                                        <Binding Path="IsChecked" ElementName="CheckBoxMedicinenurofen" />
+                                        <Binding Path="IsChecked" ElementName="CheckBoxMedicineadvil" />
+                                        <Binding Path="IsChecked" ElementName="CheckBoxMedicineibuprofen" />
+                                        <Binding Path="IsChecked" ElementName="CheckBoxMedicinevitamin_C" />
+                                        <Binding Path="IsChecked" ElementName="CheckBoxMedicinevitamin_D" />
+
+                                        <Binding Path="Text" ElementName="startDate" />
+                                        <Binding Path="Text" ElementName="finishDate" />
+                                        <Binding Path="Text" ElementName="frequencyComboBox" />
+                                    </MultiBinding>
+                                </Button.CommandParameter>
+                            </Button>
+                        </Grid>
+                    </Grid>
+                </StackPanel>
+            </Expander>
+            <Border
+    Background="{DynamicResource MaterialDesignDivider}"
+    Width="1"
+    VerticalAlignment="Stretch"
+    SnapsToDevicePixels="True" />
+
+            <Label x:Name="label" Content="     הוספת מחולק חדש" FontSize="44" FontWeight="Bold" FontStyle="Italic" Foreground="DarkBlue" VerticalAlignment="Center"/>
+
+
+
+        </StackPanel>
+    </Grid>
+</UserControl>

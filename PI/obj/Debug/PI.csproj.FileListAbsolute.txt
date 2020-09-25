@@ -1,0 +1,309 @@
+C:\Users\Tali\Desktop\project - Copy\project1\PI\bin\Debug\PI.exe.config
+C:\Users\Tali\Desktop\project - Copy\project1\PI\bin\Debug\PI.exe
+C:\Users\Tali\Desktop\project - Copy\project1\PI\bin\Debug\PI.pdb
+C:\Users\Tali\Desktop\project - Copy\project1\PI\bin\Debug\BE.dll
+C:\Users\Tali\Desktop\project - Copy\project1\PI\bin\Debug\BLL.dll
+C:\Users\Tali\Desktop\project - Copy\project1\PI\bin\Debug\EntityFramework.dll
+C:\Users\Tali\Desktop\project - Copy\project1\PI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tali\Desktop\project - Copy\project1\PI\bin\Debug\MaterialDesignColors.dll
+C:\Users\Tali\Desktop\project - Copy\project1\PI\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Tali\Desktop\project - Copy\project1\PI\bin\Debug\DAL.dll
+C:\Users\Tali\Desktop\project - Copy\project1\PI\bin\Debug\BE.pdb
+C:\Users\Tali\Desktop\project - Copy\project1\PI\bin\Debug\BLL.pdb
+C:\Users\Tali\Desktop\project - Copy\project1\PI\bin\Debug\BLL.dll.config
+C:\Users\Tali\Desktop\project - Copy\project1\PI\bin\Debug\EntityFramework.xml
+C:\Users\Tali\Desktop\project - Copy\project1\PI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tali\Desktop\project - Copy\project1\PI\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Tali\Desktop\project - Copy\project1\PI\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Tali\Desktop\project - Copy\project1\PI\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Tali\Desktop\project - Copy\project1\PI\bin\Debug\DAL.pdb
+C:\Users\Tali\Desktop\project - Copy\project1\PI\bin\Debug\DAL.dll.config
+C:\Users\Tali\Desktop\project - Copy\project1\PI\obj\Debug\PI.csprojAssemblyReference.cache
+C:\Users\Tali\Desktop\project - Copy\project1\PI\obj\Debug\MainWindow.g.cs
+C:\Users\Tali\Desktop\project - Copy\project1\PI\obj\Debug\App.g.cs
+C:\Users\Tali\Desktop\project - Copy\project1\PI\obj\Debug\PI_MarkupCompile.cache
+C:\Users\Tali\Desktop\project - Copy\project1\PI\obj\Debug\PI_MarkupCompile.lref
+C:\Users\Tali\Desktop\project - Copy\project1\PI\obj\Debug\App.baml
+C:\Users\Tali\Desktop\project - Copy\project1\PI\obj\Debug\MainWindow.baml
+C:\Users\Tali\Desktop\project - Copy\project1\PI\obj\Debug\PI.g.resources
+C:\Users\Tali\Desktop\project - Copy\project1\PI\obj\Debug\PI.Properties.Resources.resources
+C:\Users\Tali\Desktop\project - Copy\project1\PI\obj\Debug\PI.csproj.GenerateResource.cache
+C:\Users\Tali\Desktop\project - Copy\project1\PI\obj\Debug\PI.csproj.CoreCompileInputs.cache
+C:\Users\Tali\Desktop\project - Copy\project1\PI\obj\Debug\PI.csproj.CopyComplete
+C:\Users\Tali\Desktop\project - Copy\project1\PI\obj\Debug\PI.exe
+C:\Users\Tali\Desktop\project - Copy\project1\PI\obj\Debug\PI.pdb
+C:\Users\Tali\Desktop\project - Copy\project1\PI\obj\Debug\WindowAdmin.g.cs
+C:\Users\Tali\Desktop\project - Copy\project1\PI\obj\Debug\WindowAdmin.baml
+C:\Users\Tali\Desktop\project - Copy\project1\PI\obj\Debug\WindowFoodList.g.cs
+C:\Users\Tali\Desktop\project - Copy\project1\PI\obj\Debug\WindowFoodList.baml
+C:\Users\Tali\Desktop\project - Copy\project1\PI\obj\Debug\UserControlCheckBox.g.cs
+C:\Users\Tali\Desktop\project - Copy\project1\PI\obj\Debug\UserControlCheckBox.baml
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\PI.exe.config
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\PI.exe
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\PI.pdb
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\BE.dll
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\BLL.dll
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\EntityFramework.dll
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\MaterialDesignColors.dll
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\DAL.dll
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\BE.pdb
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\BLL.pdb
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\BLL.dll.config
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\EntityFramework.xml
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\DAL.pdb
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\DAL.dll.config
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\PI.csprojAssemblyReference.cache
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\WindowFoodList.g.cs
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\App.g.cs
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\PI_MarkupCompile.cache
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\PI_MarkupCompile.lref
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\App.baml
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\WindowFoodList.baml
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\PI.g.resources
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\PI.Properties.Resources.resources
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\PI.csproj.GenerateResource.cache
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\PI.csproj.CoreCompileInputs.cache
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\PI.csproj.CopyComplete
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\PI.exe
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\PI.pdb
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\WindowMain\WindowMain.g.cs
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\WindowMain\WindowMain.baml
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\WindowAdmin\WindowAdmin.g.cs
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\WindowAdmin\WindowAdmin.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\PI.exe.config
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\PI.exe
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\PI.pdb
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\BE.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\BLL.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\EntityFramework.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\MaterialDesignColors.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\DAL.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\BE.pdb
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\BLL.pdb
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\BLL.dll.config
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\EntityFramework.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\MaterialDesignColors.pdb
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\DAL.pdb
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\DAL.dll.config
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\PI.csprojAssemblyReference.cache
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\WindowMain\WindowMain.g.cs
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\WindowAdmin\WindowAdmin.g.cs
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\App.g.cs
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\PI_MarkupCompile.cache
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\PI_MarkupCompile.lref
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\App.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\WindowMain\WindowMain.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\WindowAdmin\WindowAdmin.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\PI.g.resources
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\PI.Properties.Resources.resources
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\PI.csproj.GenerateResource.cache
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\PI.csproj.CoreCompileInputs.cache
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\PI.csproj.CopyComplete
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\PI.exe
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\PI.pdb
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\UserControlAddress.g.cs
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\UserControlPackage.g.cs
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\UserControlAddress.baml
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\UserControlPackage.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\AddDistibutor\UserControlAddDistibutor.g.cs
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\AddRecipients\UserControlAddRecipients.g.cs
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\AddDistibutor\UserControlAddDistibutor.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\AddRecipients\UserControlAddRecipients.baml
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\PI.exe.config
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\PI.exe
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\PI.pdb
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\BE.dll
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\BLL.dll
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\EntityFramework.dll
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\MaterialDesignColors.dll
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\DAL.dll
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\BE.pdb
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\BLL.pdb
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\BLL.dll.config
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\EntityFramework.xml
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\DAL.pdb
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\DAL.dll.config
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\PI.csprojAssemblyReference.cache
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\AddDistibutor\UserControlAddDistibutor.g.cs
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\AddRecipients\UserControlAddRecipients.g.cs
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\WindowMain\WindowMain.g.cs
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\WindowAdmin\WindowAdmin.g.cs
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\App.g.cs
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\PI_MarkupCompile.cache
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\PI_MarkupCompile.lref
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\App.baml
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\AddDistibutor\UserControlAddDistibutor.baml
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\AddRecipients\UserControlAddRecipients.baml
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\WindowMain\WindowMain.baml
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\WindowAdmin\WindowAdmin.baml
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\PI.g.resources
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\PI.Properties.Resources.resources
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\PI.csproj.GenerateResource.cache
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\PI.csproj.CoreCompileInputs.cache
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\PI.csproj.CopyComplete
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\PI.exe
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\PI.pdb
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\AddDistibutor\UserControlAddDistibutor.g.cs
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\AddRecipients\UserControlAddRecipients.g.cs
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\UserControlWorkDays\UserControlWorkDays.g.cs
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\AddDistibutor\UserControlAddDistibutor.baml
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\AddRecipients\UserControlAddRecipients.baml
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\UserControlWorkDays\UserControlWorkDays.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\UpdateDistibutor\UserControlUpdateDistributor.g.cs
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\UpdateDistibutor\UserControlUpdateDistributor.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\UpdateRecipients\UserControlUpdateRecipients.g.cs
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\UpdateRecipients\UserControlUpdateRecipients.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\UpdateDistibutor\UserControlUpdateDistributor.g.cs
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\UpdateRecipients\UserControlUpdateRecipients.g.cs
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\FormPackageByDay\UserControlPackageByDay.g.cs
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\FormPackageByDay\UserControlPackageByDay.baml
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\UpdateDistibutor\UserControlUpdateDistributor.baml
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\UpdateRecipients\UserControlUpdateRecipients.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\FormPackageByDay\UserControlPackageByDay.g.cs
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\FormPackageByDay\UserControlPackageByDay.baml
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\Forms\UserControlFiles.g.cs
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\Forms\UserControlFiles.baml
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.xml
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.Managed.dll
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.winmd
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.dll
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.Managed.pdb
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.Managed.xml
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.pdb
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.xml
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.Managed.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.winmd
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.Managed.pdb
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.Managed.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.pdb
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\RestSharp.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\RestSharp.xml
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\RestSharp.dll
+C:\Users\Tali\Desktop\project\project1\PI\bin\Debug\RestSharp.xml
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\FormMap\UserControlMap.g.cs
+C:\Users\Tali\Desktop\project\project1\PI\obj\Debug\FormMap\UserControlMap.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\FormMap\UserControlMap.g.cs
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\FormMap\UserControlMap.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\UserControlWorkschdule\UserControlWorkSchdule.g.cs
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\UserControlWorkschdule\UserControlWorkSchdule.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\UserControlMyRecipients\UserControlMyRecipients.g.cs
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\UserControlMyRecipients\UserControlMyRecipients.baml
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.xml
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.Managed.dll
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.winmd
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.dll
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\RestSharp.dll
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.Managed.pdb
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Microsoft.Toolkit.Win32.UI.XamlHost.Managed.xml
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.pdb
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Microsoft.Toolkit.Wpf.UI.XamlHost.xml
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\RestSharp.xml
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\FormPackageByDay\UserControlPackageByDay.g.cs
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\UpdateDistibutor\UserControlUpdateDistributor.g.cs
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\UpdateRecipients\UserControlUpdateRecipients.g.cs
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\FormMap\UserControlMap.g.cs
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\UserControlMyRecipients\UserControlMyRecipients.g.cs
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\UserControlWorkschdule\UserControlWorkSchdule.g.cs
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\FormPackageByDay\UserControlPackageByDay.baml
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\UpdateDistibutor\UserControlUpdateDistributor.baml
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\UpdateRecipients\UserControlUpdateRecipients.baml
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\FormMap\UserControlMap.baml
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\UserControlMyRecipients\UserControlMyRecipients.baml
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\UserControlWorkschdule\UserControlWorkSchdule.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Accord.dll.config
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Accord.MachineLearning.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Accord.Statistics.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Accord.Math.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Accord.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Accord.Math.Core.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Accord.MachineLearning.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Accord.Statistics.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Accord.Math.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Accord.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\Accord.Math.Core.xml
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Accord.dll.config
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Accord.MachineLearning.dll
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Accord.Statistics.dll
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Accord.Math.dll
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Accord.dll
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Accord.Math.Core.dll
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Accord.MachineLearning.xml
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Accord.Statistics.xml
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Accord.Math.xml
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Accord.xml
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\Accord.Math.Core.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\FormsFiles\UserControlFiles.g.cs
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\FormsFiles\UserControlFiles.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\WindowPrint\WindowPrint.g.cs
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\WindowPrint\WindowPrint.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\LiveCharts.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\LiveCharts.pdb
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\Chart1\UserControlChartOne.g.cs
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\Chart1\UserControlChartOne.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\FormsCharts\UserControlCharts.g.cs
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\FormsCharts\UserControlCharts.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\Chart2\UserControlChartTwo.g.cs
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\Chart2\UserControlChartTwo.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\MessageBox\WindowMessageBox.g.cs
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\MessageBox\WindowMessageBox.baml
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\Chart1\UserControlChartOne.g.cs
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\Chart2\UserControlChartTwo.g.cs
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\FormsCharts\UserControlCharts.g.cs
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\FormsFiles\UserControlFiles.g.cs
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\MessageBox\WindowMessageBox.g.cs
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\WindowPrint\WindowPrint.g.cs
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\LiveCharts.dll
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\LiveCharts.pdb
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Tali\Downloads\project\project1\PI\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\Chart1\UserControlChartOne.baml
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\Chart2\UserControlChartTwo.baml
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\FormsCharts\UserControlCharts.baml
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\FormsFiles\UserControlFiles.baml
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\MessageBox\WindowMessageBox.baml
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\WindowPrint\WindowPrint.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\Chart3\UserControlChartThree.g.cs
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\Chart3\UserControlChartThree.baml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\Chart4\UserControlChartFour.g.cs
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\PI\obj\Debug\Chart4\UserControlChartFour.baml
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\Chart3\UserControlChartThree.g.cs
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\Chart4\UserControlChartFour.g.cs
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\Chart3\UserControlChartThree.baml
+C:\Users\Tali\Downloads\project\project1\PI\obj\Debug\Chart4\UserControlChartFour.baml

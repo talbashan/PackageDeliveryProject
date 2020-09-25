@@ -1,0 +1,266 @@
+﻿<UserControl x:Class="PI.UserControlAddDistibutor"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PI"
+             mc:Ignorable="d" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+         TextElement.FontWeight="Regular"
+         TextElement.FontSize="13"
+         TextOptions.TextFormattingMode="Ideal"
+         TextOptions.TextRenderingMode="Auto"
+         FontFamily="{DynamicResource MaterialDesignFont}"
+      d:DesignHeight="450" d:DesignWidth="800">
+    
+    <UserControl.Resources>
+        <local:convertDistibutorFromView x:Key="convertDistibutorFromView"/>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal" FlowDirection="RightToLeft">
+            <Expander x:Name="personalData" Expanded="personalData_Expanded"  ExpandDirection="Right" FlowDirection="RightToLeft" Background="White" >
+                <Expander.Header>
+                    <TextBlock Text="פרטים אישיים" RenderTransformOrigin=".5,.5" HorizontalAlignment="Right">
+                        <TextBlock.LayoutTransform>
+                            <RotateTransform Angle="270" />
+                        </TextBlock.LayoutTransform>
+                    </TextBlock>
+                </Expander.Header>
+                <StackPanel  
+      Orientation="Vertical"
+      TextBlock.Foreground="{DynamicResource MaterialDesignBody}">
+
+                    <Grid ShowGridLines="False" Width="630"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="70"/>
+                            <RowDefinition Height="10"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="100"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" FlowDirection="RightToLeft"  VerticalAlignment="Center" 
+        Text="אנא הכנס פרטים מזהים" FontStyle="Italic" Foreground="DarkBlue" FontSize="20" FontWeight="Bold"  />
+                        
+                        <TextBox x:Name="idTextBox" PreviewTextInput="TextBox_PreviewTextInput" Grid.Row="2" Grid.Column="0" FlowDirection="RightToLeft" materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}"  materialDesign:HintAssist.Hint="תעודת זהות"
+  VerticalAlignment="Center" Width="200"/>
+
+                        <TextBox x:Name="nameTextBox" Grid.Row="3" Grid.Column="0" FlowDirection="RightToLeft"  materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}"  materialDesign:HintAssist.Hint="שם פרטי"
+  VerticalAlignment="Center" Width="200"/>
+                        <TextBox x:Name="lastnameTextBox" Grid.Row="4" Grid.Column="0" FlowDirection="RightToLeft"  materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}"  materialDesign:HintAssist.Hint="שם משפחה"
+  VerticalAlignment="Center" Width="200"/>
+
+                        <DatePicker Name="dateOfBirth" Grid.Row="2" Grid.Column="1" Width="200"
+  materialDesign:HintAssist.Hint="תאריך  לידה" FlowDirection="RightToLeft"  materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange" 
+  Style="{StaticResource MaterialDesignFloatingHintDatePicker}"/>
+                        <TextBox x:Name="phoneTextBox" PreviewTextInput="TextBox_PreviewTextInput" Grid.Row="3" Grid.Column="1" FlowDirection="RightToLeft"  materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}"  materialDesign:HintAssist.Hint="טלפון"
+  VerticalAlignment="Center" Width="200"/>
+                        <TextBox x:Name="emailTextBox" Grid.Row="4" Grid.Column="1" FlowDirection="RightToLeft"  materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+  Style="{StaticResource MaterialDesignFloatingHintTextBox}"  materialDesign:HintAssist.Hint="מייל"
+  VerticalAlignment="Center" Width="200"/>
+                        <ComboBox Name="genderComboBox" Grid.Row="5" Grid.Column="0" Width="200" FlowDirection="RightToLeft"  materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+  materialDesign:HintAssist.Hint="מגדר">
+                        </ComboBox>
+                        <Grid Grid.Row="5" Grid.Column="1">
+                        <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Content="כתובת" HorizontalAlignment="Left" FontWeight="Bold" VerticalAlignment="Bottom" Foreground="DarkBlue"/>
+
+                        <Grid Grid.Row="1">
+                            <Grid.ColumnDefinitions >
+                                <ColumnDefinition Width="20*"/>
+                                <ColumnDefinition Width="100*"/>
+                                <ColumnDefinition Width="100*"/>
+                                <ColumnDefinition Width="100*"/>
+                                <ColumnDefinition Width="20*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBox x:Name="cityTextBox" Height="50" FlowDirection="RightToLeft" Grid.Column="1"
+      materialDesign:HintAssist.Hint="עיר"  Width="80" VerticalAlignment="Center" HorizontalAlignment="Center"
+                     materialDesign:HintAssist.Foreground="Orange"
+      materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+      Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                                <TextBox x:Name="streetTextBox" Height="50" FlowDirection="RightToLeft" Grid.Column="2"
+      materialDesign:HintAssist.Hint="רחוב" Width="80" VerticalAlignment="Center" HorizontalAlignment="Center"
+                     materialDesign:HintAssist.Foreground="Orange"
+      materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+      Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                                <TextBox x:Name="numTextBox" Height="50"  FlowDirection="RightToLeft" Grid.Column="3"
+      materialDesign:HintAssist.Hint="מספר בית"  Width="80" VerticalAlignment="Center" HorizontalAlignment="Center"
+                     materialDesign:HintAssist.Foreground="Orange"
+      materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+      Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+
+                        </Grid>
+                        </Grid>
+                    </Grid>
+                </StackPanel>
+            </Expander>
+            <Border HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+    Background="{DynamicResource MaterialDesignDivider}"
+    Width="1"
+    SnapsToDevicePixels="True" />
+
+            <Expander x:Name="workDays" Expanded="workDays_Expanded"  ExpandDirection="Right" FlowDirection="RightToLeft" Background="White" >
+                <Expander.Header>
+                    <TextBlock
+        Text="ימי עבודה"
+        RenderTransformOrigin=".5,.5">
+                        <TextBlock.LayoutTransform>
+                            <RotateTransform
+            Angle="270" />
+                        </TextBlock.LayoutTransform>
+                    </TextBlock>
+                </Expander.Header>
+                <StackPanel
+      Orientation="Vertical"
+      TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+      Margin="8,24,16,24">
+                    <Grid Width="600" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" FlowDirection="RightToLeft"  VerticalAlignment="Center" 
+        Text="אנא בחר ימי עבודה שבועים" FontStyle="Italic" Foreground="DarkBlue" FontSize="20" FontWeight="Bold"  />
+
+
+                        <!--<local:UserControlWorkDays Grid.Row="1" Background="White" HorizontalAlignment="Center"  VerticalAlignment="Center"/>-->
+                        <Grid Grid.Row="1" >
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="50"/>
+                                    <RowDefinition Height="*"/>
+
+                                </Grid.RowDefinitions>
+
+                                <StackPanel  Grid.Row="1" Grid.Column="0">
+                                    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="*"/>
+                                            <RowDefinition Height="*"/>
+                                        </Grid.RowDefinitions>
+                                        <CheckBox Content="שישי"   x:Name="friday" Background="Orange" Foreground="White" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center"
+    Style="{StaticResource MaterialDesignFilterChipCheckBox}"/>
+                                        <CheckBox Content="חמישי"  x:Name="thursday" Background="DarkBlue" Foreground="White"  Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center"
+    Style="{StaticResource MaterialDesignFilterChipCheckBox}"/>
+                                        <CheckBox Content="רביעי"  x:Name="wednesday" Background="Orange" Foreground="White"  Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center"
+    Style="{StaticResource MaterialDesignFilterChipCheckBox}"/>
+                                        <CheckBox Content="שלישי"  x:Name="tuesday" Background="DarkBlue" Foreground="White"  Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center"
+    Style="{StaticResource MaterialDesignFilterChipCheckBox}"/>
+                                        <CheckBox Content="שני"  x:Name="monday" Background="Orange" Foreground="White"  Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center"
+    Style="{StaticResource MaterialDesignFilterChipCheckBox}"/>
+                                        <CheckBox Content="ראשון" x:Name="sunday" Background="DarkBlue" Foreground="White"  Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center"
+    Style="{StaticResource MaterialDesignFilterChipCheckBox}"/>
+                                    </Grid>
+
+                                </StackPanel>
+
+
+                            </Grid>
+                        </Grid>
+                    
+                    </Grid>
+                </StackPanel>
+            </Expander>
+            <Border
+    Background="{DynamicResource MaterialDesignDivider}"
+    Width="1"
+    VerticalAlignment="Stretch"
+    SnapsToDevicePixels="True" />
+
+            <Expander x:Name="save" Expanded="save_Expanded"  ExpandDirection="Right" FlowDirection="RightToLeft" Background="White" >
+                <Expander.Header>
+                    <TextBlock
+        Text="שמירת נתונים"
+        RenderTransformOrigin=".5,.5">
+                        <TextBlock.LayoutTransform>
+                            <RotateTransform
+            Angle="270" />
+                        </TextBlock.LayoutTransform>
+                    </TextBlock>
+                </Expander.Header>
+                <StackPanel
+      Orientation="Vertical"
+      TextBlock.Foreground="{DynamicResource MaterialDesignBody}"
+      Margin="8,24,16,24">
+                    <Grid Width="550">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="100"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left" FlowDirection="RightToLeft"  VerticalAlignment="Center" 
+        Text="שמירת נתונים" FontStyle="Italic" Foreground="DarkBlue" FontSize="20" FontWeight="Bold"  />
+                        <TextBlock Grid.Row="2" Text="משתמש יקר! &#xD;&#xA;יש לוודא כי כל הנתונים הוזנו טרם ביצוע שמירה" FontSize="12" FontWeight="Black" />
+                        <Grid Grid.Row="3" Width="124">
+                            <Button  Background="DarkBlue" Command="{Binding AddCommend}" Style="{StaticResource MaterialDesignRaisedButton}" materialDesign:ButtonProgressAssist.Value="-1" materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+                              materialDesign:ButtonProgressAssist.IsIndeterminate="True" Content="שמירה">
+                                <Button.CommandParameter>
+                                    <MultiBinding Converter="{StaticResource convertDistibutorFromView}">
+                                        <Binding Path="Text" ElementName="idTextBox"/>
+                                        <Binding Path="Text" ElementName="nameTextBox"/>
+                                        <Binding Path="Text" ElementName="lastnameTextBox" />
+                                        <Binding Path="Text" ElementName="dateOfBirth" />
+                                        <Binding Path="Text" ElementName="phoneTextBox" />
+                                        <Binding Path="Text" ElementName="emailTextBox" />
+                                        <Binding Path="Text" ElementName="genderComboBox" />
+
+                                        <Binding Path="Text" ElementName="cityTextBox" />
+                                        <Binding Path="Text" ElementName="streetTextBox" />
+                                        <Binding Path="Text" ElementName="numTextBox" />
+
+                                        <Binding Path="IsChecked" ElementName="sunday" />
+                                        <Binding Path="IsChecked" ElementName="monday" />
+                                        <Binding Path="IsChecked" ElementName="tuesday" />
+                                        <Binding Path="IsChecked" ElementName="wednesday" />
+                                        <Binding Path="IsChecked" ElementName="thursday" />
+                                        <Binding Path="IsChecked" ElementName="friday" />
+                                    </MultiBinding>
+                                </Button.CommandParameter>
+                            </Button>
+                        </Grid>
+                    </Grid>
+                </StackPanel>
+            </Expander>
+            <Border
+    Background="{DynamicResource MaterialDesignDivider}"
+    Width="1"
+    VerticalAlignment="Stretch"
+    SnapsToDevicePixels="True" />
+
+            <Label x:Name="label" Content="     הוספת מחלק חדש" FontSize="44" FontWeight="Bold" FontStyle="Italic" Foreground="DarkBlue" VerticalAlignment="Center"/>
+
+
+
+        </StackPanel>
+    </Grid>
+</UserControl>

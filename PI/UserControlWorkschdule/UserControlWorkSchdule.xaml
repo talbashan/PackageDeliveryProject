@@ -1,0 +1,74 @@
+﻿<UserControl x:Class="PI.UserControlWorkSchdule"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PI"
+             xmlns:viewModel ="clr-namespace:PI"
+             mc:Ignorable="d" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+         TextElement.FontWeight="Regular"
+         TextElement.FontSize="13"
+         TextOptions.TextFormattingMode="Ideal"
+         TextOptions.TextRenderingMode="Auto"
+         FontFamily="{DynamicResource MaterialDesignFont}"
+      d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <viewModel:ViewModelWorkScheduel x:Key="ViewModelWorkScheduel"/>
+    </UserControl.Resources>
+
+    <Grid DataContext="{StaticResource ResourceKey=ViewModelWorkScheduel}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="70*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition Width="9*"/>
+                <ColumnDefinition Width="6*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="6*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <DatePicker Name="datePicked" Grid.Row="0"  Grid.Column="3" Width="150" HorizontalAlignment="Right" IsEnabled="False"
+  materialDesign:HintAssist.Hint="תאריך" FlowDirection="RightToLeft"  materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange" 
+  Style="{StaticResource MaterialDesignFloatingHintDatePicker}"/>
+
+            <Button  Width="150" Command="{Binding viewCommand}" CommandParameter="{Binding ElementName=listView, Path=ItemsSource}"  Grid.Column="0" Background="DarkBlue" Style="{StaticResource MaterialDesignRaisedButton}" materialDesign:ButtonProgressAssist.Value="-1" materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+                              materialDesign:ButtonProgressAssist.IsIndeterminate="True" Content="שמור סידור עבודה" >
+                
+            </Button>
+<!--
+                        <Button Command="{Binding backComand}" Style="{StaticResource MaterialDesignIconForegroundButton}" Grid.Column="5"  >
+                <materialDesign:PackIcon  Kind="ArrowRight"  Foreground="DarkBlue"/>
+                <Button.ToolTip>
+                    <ToolTip Background="White">
+                        <TextBlock FontWeight="Bold" Foreground="Orange" >חזרה לדוחות</TextBlock>
+                    </ToolTip>
+                </Button.ToolTip>
+            </Button>
+
+            -->
+        </Grid>
+
+        <ListView x:Name="listView" SelectionMode="Multiple" IsSynchronizedWithCurrentItem="True" Grid.Row="1" FlowDirection="RightToLeft" ItemsSource="{Binding listOfDistributors}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="תעודת זהות" DisplayMemberBinding="{Binding distributors_id }" />
+                    <GridViewColumn  Header="שם פרטי" DisplayMemberBinding="{Binding distributors_first_name }" />
+                    <GridViewColumn  Header="שם משפחה" DisplayMemberBinding="{Binding distributors_last_name }"/>
+                    <GridViewColumn  Header="תאריך לידה" DisplayMemberBinding="{Binding distributors_date_of_birth, StringFormat=dd-MM-yyyy}" />
+                    <GridViewColumn  Header="כתובת" DisplayMemberBinding="{Binding distributors_address.address_city}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+
+
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,114 @@
+C:\Users\Tali\Desktop\project\project1\BLL\bin\Debug\BLL.dll
+C:\Users\Tali\Desktop\project\project1\BLL\bin\Debug\BLL.pdb
+C:\Users\Tali\Desktop\project\project1\BLL\bin\Debug\BE.dll
+C:\Users\Tali\Desktop\project\project1\BLL\bin\Debug\DAL.dll
+C:\Users\Tali\Desktop\project\project1\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Tali\Desktop\project\project1\BLL\bin\Debug\BE.pdb
+C:\Users\Tali\Desktop\project\project1\BLL\bin\Debug\DAL.pdb
+C:\Users\Tali\Desktop\project\project1\BLL\bin\Debug\DAL.dll.config
+C:\Users\Tali\Desktop\project\project1\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Tali\Desktop\project\project1\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Tali\Desktop\project\project1\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Tali\Desktop\project\project1\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Tali\Desktop\project\project1\BLL\obj\Debug\BLL.dll
+C:\Users\Tali\Desktop\project\project1\BLL\obj\Debug\BLL.pdb
+C:\Users\Tali\Desktop\project\project1\BLL\bin\Debug\BLL.dll.config
+C:\Users\Tali\Desktop\project\project1\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tali\Desktop\project\project1\BLL\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\Tali\Desktop\project\project1\BLL\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Tali\Desktop\project\project1\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tali\Desktop\project\project1\BLL\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\Tali\Desktop\project - Copy\project1\BLL\bin\Debug\BLL.dll.config
+C:\Users\Tali\Desktop\project - Copy\project1\BLL\bin\Debug\BLL.dll
+C:\Users\Tali\Desktop\project - Copy\project1\BLL\bin\Debug\BLL.pdb
+C:\Users\Tali\Desktop\project - Copy\project1\BLL\bin\Debug\BE.dll
+C:\Users\Tali\Desktop\project - Copy\project1\BLL\bin\Debug\DAL.dll
+C:\Users\Tali\Desktop\project - Copy\project1\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Tali\Desktop\project - Copy\project1\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tali\Desktop\project - Copy\project1\BLL\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\Tali\Desktop\project - Copy\project1\BLL\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Tali\Desktop\project - Copy\project1\BLL\bin\Debug\BE.pdb
+C:\Users\Tali\Desktop\project - Copy\project1\BLL\bin\Debug\DAL.pdb
+C:\Users\Tali\Desktop\project - Copy\project1\BLL\bin\Debug\DAL.dll.config
+C:\Users\Tali\Desktop\project - Copy\project1\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Tali\Desktop\project - Copy\project1\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tali\Desktop\project - Copy\project1\BLL\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\Tali\Desktop\project - Copy\project1\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Tali\Desktop\project - Copy\project1\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Tali\Desktop\project - Copy\project1\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Tali\Desktop\project - Copy\project1\BLL\obj\Debug\BLL.dll
+C:\Users\Tali\Desktop\project - Copy\project1\BLL\obj\Debug\BLL.pdb
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\BLL.dll.config
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\BLL.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\BLL.pdb
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\BE.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\DAL.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\EntityFramework.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\BE.pdb
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\DAL.pdb
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\DAL.dll.config
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\EntityFramework.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\obj\Debug\BLL.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\obj\Debug\BLL.pdb
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Tali\Desktop\project\project1\BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tali\Desktop\project\project1\BLL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\RestSharp.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\RestSharp.xml
+C:\Users\Tali\Desktop\project\project1\BLL\bin\Debug\RestSharp.dll
+C:\Users\Tali\Desktop\project\project1\BLL\bin\Debug\RestSharp.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\Accord.dll.config
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\Accord.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\Accord.MachineLearning.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\Accord.Math.Core.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\Accord.Math.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\Accord.Statistics.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\Accord.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\Accord.MachineLearning.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\Accord.Math.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\Accord.Math.Core.xml
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BLL\bin\Debug\Accord.Statistics.xml
+C:\Users\Tali\Downloads\project\project1\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Tali\Downloads\project\project1\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Tali\Downloads\project\project1\BLL\obj\Debug\BLL.dll
+C:\Users\Tali\Downloads\project\project1\BLL\obj\Debug\BLL.pdb
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\Accord.dll.config
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\BLL.dll.config
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\BLL.dll
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\BLL.pdb
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\Accord.dll
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\Accord.MachineLearning.dll
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\Accord.Math.Core.dll
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\Accord.Math.dll
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\Accord.Statistics.dll
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\BE.dll
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\DAL.dll
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\EntityFramework.dll
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\EntityFramework.SqlServerCompact.dll
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\RestSharp.dll
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\BE.pdb
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\DAL.pdb
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\DAL.dll.config
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\Accord.xml
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\Accord.MachineLearning.xml
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\Accord.Math.xml
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\Accord.Math.Core.xml
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\Accord.Statistics.xml
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\EntityFramework.xml
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\EntityFramework.SqlServerCompact.xml
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Tali\Downloads\project\project1\BLL\bin\Debug\RestSharp.xml
+C:\Users\Tali\Downloads\project\project1\BLL\obj\Debug\BLL.csproj.CopyComplete

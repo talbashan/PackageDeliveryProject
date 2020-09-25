@@ -1,0 +1,62 @@
+﻿<UserControl x:Class="PI.UserControlChartTwo"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PI"
+             xmlns:viewModle="clr-namespace:PI"
+             mc:Ignorable="d" 
+             xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+         TextElement.FontWeight="Regular"
+         TextElement.FontSize="13"
+         TextOptions.TextFormattingMode="Ideal"
+         TextOptions.TextRenderingMode="Auto"
+         FontFamily="{DynamicResource MaterialDesignFont}"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <viewModle:ViewModleChartTwo x:Key="ViewModleChartTwo"/>
+        <local:convertetChartTwo x:Key="convertetChartTwo"/>
+    </UserControl.Resources>
+
+    <Grid DataContext="{StaticResource ResourceKey=ViewModleChartTwo}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="40*"/>
+                <ColumnDefinition Width="10*"/>
+            </Grid.ColumnDefinitions>
+            <DatePicker x:Name="date" Grid.Column="4" Width="150" HorizontalAlignment="Center" VerticalAlignment="Center"
+  materialDesign:HintAssist.Hint="תאריך" FlowDirection="RightToLeft"  materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange" 
+  Style="{StaticResource MaterialDesignFloatingHintDatePicker}" Margin="39.667,20,40.333,24"/>
+            
+            <ComboBox Name="divide" Grid.Column="3" Width="120" FlowDirection="RightToLeft" HorizontalAlignment="Center" VerticalAlignment="Center"  materialDesign:HintAssist.Foreground="Orange"
+  materialDesign:TextFieldAssist.UnderlineBrush="Orange"
+  materialDesign:HintAssist.Hint="בחר חלוקה">
+            </ComboBox>
+            <Button Grid.Column="2" Command="{Binding drewChart}"  Width="120" HorizontalAlignment="Center" VerticalAlignment="Center"  Background="DarkBlue" Style="{StaticResource MaterialDesignRaisedButton}" materialDesign:ButtonProgressAssist.Value="-1" materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+                              materialDesign:ButtonProgressAssist.IsIndeterminate="True" Content="הצג גרף">
+                
+                <Button.CommandParameter>
+                    <MultiBinding Converter="{StaticResource convertetChartTwo}">
+                        <Binding ElementName="date" Path="Text"/>
+                        <Binding ElementName="divide" Path="Text"/>
+                    </MultiBinding>
+                </Button.CommandParameter>
+            </Button>
+        </Grid>
+        <lvc:PieChart Grid.Row="2" LegendLocation="Bottom" Series="{Binding SeriesCollection }" Hoverable="False" DataTooltip="{x:Null}"/>
+
+    </Grid>
+
+
+</UserControl>

@@ -1,0 +1,22 @@
+C:\Users\Tali\Desktop\project\project1\BE\bin\Debug\BE.dll
+C:\Users\Tali\Desktop\project\project1\BE\bin\Debug\BE.pdb
+C:\Users\Tali\Desktop\project\project1\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\Tali\Desktop\project\project1\BE\obj\Debug\BE.dll
+C:\Users\Tali\Desktop\project\project1\BE\obj\Debug\BE.pdb
+C:\Users\Tali\Desktop\project - Copy\project1\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\Tali\Desktop\project - Copy\project1\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\Tali\Desktop\project - Copy\project1\BE\obj\Debug\BE.dll
+C:\Users\Tali\Desktop\project - Copy\project1\BE\obj\Debug\BE.pdb
+C:\Users\Tali\Desktop\project - Copy\project1\BE\bin\Debug\BE.dll
+C:\Users\Tali\Desktop\project - Copy\project1\BE\bin\Debug\BE.pdb
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BE\bin\Debug\BE.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BE\bin\Debug\BE.pdb
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BE\obj\Debug\BE.dll
+C:\Users\shirb\Desktop\מכון טל\שנה ג\סמסטר ב\מערכות חלונות\project\project1\BE\obj\Debug\BE.pdb
+C:\Users\Tali\Downloads\project\project1\BE\bin\Debug\BE.dll
+C:\Users\Tali\Downloads\project\project1\BE\bin\Debug\BE.pdb
+C:\Users\Tali\Downloads\project\project1\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\Tali\Downloads\project\project1\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\Tali\Downloads\project\project1\BE\obj\Debug\BE.dll
+C:\Users\Tali\Downloads\project\project1\BE\obj\Debug\BE.pdb
