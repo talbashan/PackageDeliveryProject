@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tali\\Downloads\\project\\project1\\PI\\PI.csproj": {}
+    "C:\\Users\\Tali\\project\\PackageDeliveryProject\\PI\\PI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tali\\Downloads\\project\\project1\\BE\\BE.csproj": {
+    "C:\\Users\\Tali\\project\\PackageDeliveryProject\\BE\\BE.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tali\\Downloads\\project\\project1\\BE\\BE.csproj",
+        "projectUniqueName": "C:\\Users\\Tali\\project\\PackageDeliveryProject\\BE\\BE.csproj",
         "projectName": "BE",
-        "projectPath": "C:\\Users\\Tali\\Downloads\\project\\project1\\BE\\BE.csproj"
+        "projectPath": "C:\\Users\\Tali\\project\\PackageDeliveryProject\\BE\\BE.csproj"
       },
       "frameworks": {
         "net472": {}
       }
     },
-    "C:\\Users\\Tali\\Downloads\\project\\project1\\BLL\\BLL.csproj": {
+    "C:\\Users\\Tali\\project\\PackageDeliveryProject\\BLL\\BLL.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tali\\Downloads\\project\\project1\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\Tali\\project\\PackageDeliveryProject\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\Tali\\Downloads\\project\\project1\\BLL\\BLL.csproj",
+        "projectPath": "C:\\Users\\Tali\\project\\PackageDeliveryProject\\BLL\\BLL.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Tali\\Downloads\\project\\project1\\BE\\BE.csproj": {
-                "projectPath": "C:\\Users\\Tali\\Downloads\\project\\project1\\BE\\BE.csproj"
+              "C:\\Users\\Tali\\project\\PackageDeliveryProject\\BE\\BE.csproj": {
+                "projectPath": "C:\\Users\\Tali\\project\\PackageDeliveryProject\\BE\\BE.csproj"
               },
-              "C:\\Users\\Tali\\Downloads\\project\\project1\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\Tali\\Downloads\\project\\project1\\DAL\\DAL.csproj"
+              "C:\\Users\\Tali\\project\\PackageDeliveryProject\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\Tali\\project\\PackageDeliveryProject\\DAL\\DAL.csproj"
               }
             }
           }
@@ -36,16 +36,16 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Tali\\Downloads\\project\\project1\\DAL\\DAL.csproj": {
+    "C:\\Users\\Tali\\project\\PackageDeliveryProject\\DAL\\DAL.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tali\\Downloads\\project\\project1\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Tali\\project\\PackageDeliveryProject\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\Tali\\Downloads\\project\\project1\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\Tali\\project\\PackageDeliveryProject\\DAL\\DAL.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Tali\\Downloads\\project\\project1\\BE\\BE.csproj": {
-                "projectPath": "C:\\Users\\Tali\\Downloads\\project\\project1\\BE\\BE.csproj"
+              "C:\\Users\\Tali\\project\\PackageDeliveryProject\\BE\\BE.csproj": {
+                "projectPath": "C:\\Users\\Tali\\project\\PackageDeliveryProject\\BE\\BE.csproj"
               }
             }
           }
@@ -55,14 +55,14 @@
         "net472": {}
       }
     },
-    "C:\\Users\\Tali\\Downloads\\project\\project1\\PI\\PI.csproj": {
+    "C:\\Users\\Tali\\project\\PackageDeliveryProject\\PI\\PI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tali\\Downloads\\project\\project1\\PI\\PI.csproj",
+        "projectUniqueName": "C:\\Users\\Tali\\project\\PackageDeliveryProject\\PI\\PI.csproj",
         "projectName": "PI",
-        "projectPath": "C:\\Users\\Tali\\Downloads\\project\\project1\\PI\\PI.csproj",
+        "projectPath": "C:\\Users\\Tali\\project\\PackageDeliveryProject\\PI\\PI.csproj",
         "packagesPath": "C:\\Users\\Tali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tali\\Downloads\\project\\project1\\PI\\obj\\",
+        "outputPath": "C:\\Users\\Tali\\project\\PackageDeliveryProject\\PI\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
@@ -79,11 +79,11 @@
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\Tali\\Downloads\\project\\project1\\BE\\BE.csproj": {
-                "projectPath": "C:\\Users\\Tali\\Downloads\\project\\project1\\BE\\BE.csproj"
+              "C:\\Users\\Tali\\project\\PackageDeliveryProject\\BE\\BE.csproj": {
+                "projectPath": "C:\\Users\\Tali\\project\\PackageDeliveryProject\\BE\\BE.csproj"
               },
-              "C:\\Users\\Tali\\Downloads\\project\\project1\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\Tali\\Downloads\\project\\project1\\BLL\\BLL.csproj"
+              "C:\\Users\\Tali\\project\\PackageDeliveryProject\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\Tali\\project\\PackageDeliveryProject\\BLL\\BLL.csproj"
               }
             }
           }

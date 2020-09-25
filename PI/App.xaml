@@ -12,13 +12,20 @@
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.DeepPurple.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
             </ResourceDictionary.MergedDictionaries>
-            <Style x:Key="imageStyle">
+
+            <Style x:Key="imageStyle" >
+                <Setter Property="Image.RenderTransformOrigin" Value="0.5, 0.5"/>
+                <Setter Property="Image.RenderTransform">
+                    <Setter.Value>
+                        <ScaleTransform ScaleX="-1"/>
+                    </Setter.Value>
+                </Setter>
                 <Style.Triggers>
                     <Trigger Property="Image.IsMouseOver" Value="True">
                         <Setter Property="Image.RenderTransformOrigin" Value="0.5, 0.5"/>
                         <Setter Property="Image.RenderTransform">
                             <Setter.Value>
-                                <ScaleTransform ScaleX="1.4" ScaleY="1.4"/>
+                                <ScaleTransform ScaleX="-1.4" ScaleY="1.4"/>
                             </Setter.Value>
                         </Setter>
                     </Trigger>

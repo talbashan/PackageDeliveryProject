@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SbkwpUs5DW44Grbs6ge54HUJ/q9ZcGI3RJehy5977nWo3/yWSiyvHPG+cPCcWZ1wZhBdJKRyDN++Z349jhDAUg==",
+  "dgSpecHash": "wUZcNCZPlsOuJQ/WBxY/gEsQv4yFzaFhQMJbvzoOuNekV5F8FlcxnuQyO0w5D1d1u7OTl9VBMcI/OJCgsze9bg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tali\\Downloads\\project\\project1\\PI\\PI.csproj",
+  "projectFilePath": "C:\\Users\\Tali\\project\\PackageDeliveryProject\\PI\\PI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tali\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
     "C:\\Users\\Tali\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
